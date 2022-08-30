@@ -33,11 +33,12 @@ a{
     border-radius: 5px;
     width: 150px;
     height: 35px;
-    margin: 11px 4px;
+    margin: 1px 6px;
 }
 
 .init-search:hover {
     background: rgba(241, 240, 240, 0.945);
+    text-decoration: underline;
 }
 
 .init_session:hover {
@@ -77,6 +78,7 @@ a{
     margin-top: 40px;
     margin-bottom: 20px;
     position: relative;
+    border-color: grey;
 }
 
 .clearfix{
@@ -113,7 +115,7 @@ nav.nav-footer{
     position: fixed;
 }
 
-nav.nav-footer:hover{
+nav.nav-footer a:hover{
     text-decoration: underline;
 }
 
@@ -133,4 +135,8 @@ nav.nav-footer:hover{
 
 .search-buttons{
     text-align: center;
+}
+
+nav.nav-header a:hover{
+text-decoration: underline;
 }
