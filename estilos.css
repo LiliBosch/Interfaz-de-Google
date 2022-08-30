@@ -22,36 +22,24 @@ margin: 16px 30px 0px;
 a{
     text-decoration: none;
     color: rgba(0,0,0,0.87);
+    border: none;
 }
 
-a:hover{
-    text-decoration: underline;
-}
 
-.init_search{
-    border: 2px solid #e8e8e8eb;
-    background: #f5f5f4;
+.init-search{
+    background: whitesmoke;
+    border: rgb(158, 158, 158);
     color: rgb(0,0,0);
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    margin: 11px 4px;
 }
 
-.init_search:hover{
-    background: rgba(241,240,240,0.945);
-}
-
-.init_happy{
-    border: 2px solid #e8e8eb;
-    background: #f5f4f4;
-    color: rgb(0, 0, 0);
-    display: inline-block;
-    line-height: 28px;
-    padding: 0 12px;
-    border-radius: 6px;
-    width: auto;
-}
-
-.init_happy:hover{
+.init-search:hover {
     background: rgba(241, 240, 240, 0.945);
 }
+
 .init_session:hover {
     background: rgba(241, 240, 240, 0.945);
 }
@@ -86,7 +74,8 @@ a:hover{
     grid-template-areas: "lupa input micro";
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -122,4 +111,26 @@ nav.nav-footer a{
 nav.nav-footer{
     width: 100% !important;
     position: fixed;
+}
+
+nav.nav-footer:hover{
+    text-decoration: underline;
+}
+
+.input_style{
+    border-radius: 30px;
+    border-width: 1px;
+    height: 40px;
+}
+
+.init_session{
+    height: 25px;
+    border-width: 0px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.search-buttons{
+    text-align: center;
 }
